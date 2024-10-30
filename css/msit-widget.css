@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+.msit-social-media-title{ color:#249BB9; margin:15px auto; padding-left:60px;}
+.msit-social-media{ width:auto;}
+.msit-social-media li{
+	list-style:none;
+/*	height:39px;
+	
+	/*width:40px;*/padding:2px;
+	float:left;
+}
+.msit-social-media a{
+	height:38px;
+	width:34px;
+	display:block;
+	position:relative; 
+	background:url(../images/navigation.jpg); no-repeat;
+	/*border-radius:20px;*/
+	/*-moz-box-shadow:2px 2px 8px 0px #9ddff5;
+	-webkit-box-shadow:2px 2px 8px 0px #9ddff5;
+	box-shadow:2px 2px 8px 0px #9ddff5;*/
+	}
+.msit-social-media a:hover{
+	text-decoration:none;	
+	/* CSS outer glow with the box-shadow property */
+	/*-moz-box-shadow:2px 2px 8px 0px #9ddff5;
+	-webkit-box-shadow:2px 2px 8px 0px #9ddff5;
+	box-shadow:2px 2px 8px 0px #9ddff5;*/
+	/*border-radius:20px;*/
+}
+
+.msit-social-media .facebook {	background-position:0 0;}
+.msit-social-media .facebook:hover {	background-position:-1px -39px;}
+.msit-social-media .twitter { background-position:-34px 0;}
+.msit-social-media .twitter:hover { background-position:-35px -39px;}
+.msit-social-media .google { background-position:-68px 0;}
+.msit-social-media .google:hover { background-position:-68px -39px;}
+.msit-social-media .linkedin { background-position:-102px 0;}
+.msit-social-media .linkedin:hover{ background-position:-102px -39px;}
+.msit-social-media .youtube { background-position:-137px 0;}
+.msit-social-media .youtube:hover { background-position:-137px -39px;}
+.msit-social-media .vimeo { background-position:-171px 0;}
+.msit-social-media .vimeo:hover { background-position:-171px -39px;}
